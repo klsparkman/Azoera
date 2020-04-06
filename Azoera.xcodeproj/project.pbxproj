@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		35131089243AF20900FD213A /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35131088243AF20900FD213A /* WelcomeViewController.swift */; };
+		3513108B243AF6A800FD213A /* AzoeraTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3513108A243AF6A800FD213A /* AzoeraTextField.swift */; };
+		3513108D243AF8EC00FD213A /* AzoeraLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3513108C243AF8EC00FD213A /* AzoeraLabel.swift */; };
+		3513108F243AF9D300FD213A /* LightLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3513108E243AF9D300FD213A /* LightLabel.swift */; };
+		35131091243AFA0B00FD213A /* BoldLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35131090243AFA0B00FD213A /* BoldLabel.swift */; };
+		35131093243AFA7000FD213A /* AzoraButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35131092243AFA7000FD213A /* AzoraButton.swift */; };
 		F73DEEA4223AF4550023C6C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73DEEA3223AF4550023C6C6 /* AppDelegate.swift */; };
 		F73DEEA9223AF4550023C6C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F73DEEA7223AF4550023C6C6 /* Main.storyboard */; };
 		F73DEEAB223AF4570023C6C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F73DEEAA223AF4570023C6C6 /* Assets.xcassets */; };
@@ -21,6 +26,11 @@
 
 /* Begin PBXFileReference section */
 		35131088243AF20900FD213A /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		3513108A243AF6A800FD213A /* AzoeraTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AzoeraTextField.swift; sourceTree = "<group>"; };
+		3513108C243AF8EC00FD213A /* AzoeraLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AzoeraLabel.swift; sourceTree = "<group>"; };
+		3513108E243AF9D300FD213A /* LightLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightLabel.swift; sourceTree = "<group>"; };
+		35131090243AFA0B00FD213A /* BoldLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoldLabel.swift; sourceTree = "<group>"; };
+		35131092243AFA7000FD213A /* AzoraButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AzoraButton.swift; sourceTree = "<group>"; };
 		F73DEEA0223AF4550023C6C6 /* Azoera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Azoera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F73DEEA3223AF4550023C6C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F73DEEA8223AF4550023C6C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -89,6 +99,11 @@
 			isa = PBXGroup;
 			children = (
 				F763B96B2252693E005697E5 /* StyleGuide.swift */,
+				3513108A243AF6A800FD213A /* AzoeraTextField.swift */,
+				3513108C243AF8EC00FD213A /* AzoeraLabel.swift */,
+				3513108E243AF9D300FD213A /* LightLabel.swift */,
+				35131090243AFA0B00FD213A /* BoldLabel.swift */,
+				35131092243AFA7000FD213A /* AzoraButton.swift */,
 			);
 			path = CustomUI;
 			sourceTree = "<group>";
@@ -181,6 +196,11 @@
 				35131089243AF20900FD213A /* WelcomeViewController.swift in Sources */,
 				F73DEEA4223AF4550023C6C6 /* AppDelegate.swift in Sources */,
 				F763B96C2252693E005697E5 /* StyleGuide.swift in Sources */,
+				3513108F243AF9D300FD213A /* LightLabel.swift in Sources */,
+				3513108B243AF6A800FD213A /* AzoeraTextField.swift in Sources */,
+				35131093243AFA7000FD213A /* AzoraButton.swift in Sources */,
+				3513108D243AF8EC00FD213A /* AzoeraLabel.swift in Sources */,
+				35131091243AFA0B00FD213A /* BoldLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
