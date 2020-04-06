@@ -33,16 +33,40 @@ class WelcomeViewController: UIViewController {
         loginToggleButton.rotate()
         signUpToggleButton.rotate()
         loginToggleButton.tintColor = UIColor.subltleTextColor
-        signUpToggleButton.tintColor = UIColor.subltleTextColor
+        signUpToggleButton.tintColor = UIColor.mainTextColor
         faqButton.setTitleColor(.greenAccent, for: .normal)
         helpButton.setTitleColor(.mainTextColor, for: .normal)
         self.view.backgroundColor = .spaceGrey
         
     }
+    // Mark: - HelperMethods
+    func toggleToLogin() {
+        UIView.animate(withDuration: 0.2) {
+            self.confirmTextField.isHidden = true
+            self.loginToggleButton.tintColor = .mainTextColor
+            self.signUpToggleButton.tintColor = .subltleTextColor
+            self.signUpButton.setTitle("Log me in", for: .normal)
+            self.helpButton.setTitle("Forgot?", for: .normal)
+            self.faqButton.setTitle("Remind", for: .normal)
+        }
+    }
     
+    func toggleToSignUp() {
+        UIView.animate(withDuration: 0.2) {
+            self.confirmTextField.isHidden = false
+            self.loginToggleButton.tintColor = .subltleTextColor
+            self.signUpToggleButton.tintColor = .mainTextColor
+            self.signUpButton.setTitle("Sign me up", for: .normal)
+            self.helpButton.setTitle("Help?", for: .normal)
+            self.faqButton.setTitle("FAQ", for: .normal)
+        }
+    }
+    // Mark: - Actions
     @IBAction func toggleLogIn(_ sender: Any) {
+        toggleToLogin()
+        
     }
     @IBAction func toggleSignUp(_ sender: Any) {
+        toggleToSignUp()
     }
-    
 }
