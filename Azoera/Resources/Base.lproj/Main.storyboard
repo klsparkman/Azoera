@@ -30,10 +30,16 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7B7-L1-cgS">
                                                 <rect key="frame" x="0.0" y="0.0" width="122.5" height="82"/>
                                                 <state key="normal" title="Log In"/>
+                                                <connections>
+                                                    <action selector="toggleLogIn:" destination="077-zL-3Ry" eventType="touchUpInside" id="kKW-xr-ztf"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Crr-M2-Ge2">
                                                 <rect key="frame" x="0.0" y="90" width="122.5" height="82"/>
                                                 <state key="normal" title="Sign Up"/>
+                                                <connections>
+                                                    <action selector="toggleSignUp:" destination="077-zL-3Ry" eventType="touchUpInside" id="whf-QF-ChV"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>

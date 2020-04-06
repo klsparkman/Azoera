@@ -25,6 +25,24 @@ class WelcomeViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        setUpUI()
         
     }
+    
+    func setUpUI() {
+        loginToggleButton.rotate()
+        signUpToggleButton.rotate()
+        loginToggleButton.tintColor = UIColor.subltleTextColor
+        signUpToggleButton.tintColor = UIColor.subltleTextColor
+        faqButton.setTitleColor(.greenAccent, for: .normal)
+        helpButton.setTitleColor(.mainTextColor, for: .normal)
+        self.view.backgroundColor = .spaceGrey
+        
+    }
+    
+    @IBAction func toggleLogIn(_ sender: Any) {
+    }
+    @IBAction func toggleSignUp(_ sender: Any) {
+    }
+    
 }
