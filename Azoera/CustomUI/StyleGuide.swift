@@ -7,6 +7,7 @@
 //
 
 import UIKit
+
 struct FontNames {
     static let latoBold = "Lato-Bold"
     static let latoRegular = "Lato-Regular"
