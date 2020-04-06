@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Welcome View Controller-->
         <scene sceneID="Qrn-D2-Qel">
             <objects>
-                <viewController id="077-zL-3Ry" sceneMemberID="viewController">
+                <viewController id="077-zL-3Ry" customClass="WelcomeViewController" customModule="Azoera" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Mxe-tz-jih">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -123,6 +123,19 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="3xF-VL-GRw"/>
                     </view>
+                    <connections>
+                        <outlet property="confirmTextField" destination="Jvp-o8-33Y" id="E9z-ex-Dh1"/>
+                        <outlet property="descriptionLabel" destination="dEB-SD-nNp" id="c2Z-O1-i18"/>
+                        <outlet property="emailTextField" destination="SpT-fZ-Kvb" id="2gG-gB-itt"/>
+                        <outlet property="faqButton" destination="U6l-Fu-WJe" id="LGL-1e-xyC"/>
+                        <outlet property="helpButton" destination="bcg-3y-lWf" id="cgt-R1-kYw"/>
+                        <outlet property="loginToggleButton" destination="7B7-L1-cgS" id="UJL-Uk-oMw"/>
+                        <outlet property="logoImageView" destination="5Is-8u-bh7" id="IaN-kk-coI"/>
+                        <outlet property="passwordTextField" destination="4lW-LS-akt" id="zCe-xE-mNV"/>
+                        <outlet property="signUpButton" destination="RKq-ia-9X4" id="Fhg-KI-AbA"/>
+                        <outlet property="signUpToggleButton" destination="Crr-M2-Ge2" id="YOm-6I-2Wc"/>
+                        <outlet property="welcomeLabel" destination="mdB-46-nAP" id="xxv-ii-TzM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wqE-hM-zlf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
